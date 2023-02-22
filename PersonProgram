@@ -1,0 +1,5 @@
+import PersonClass as pc
+
+test_customer = pc.Customer("John", "123 Road", "123-222-0101", 1007, False)
+
+test_customer.print_person()

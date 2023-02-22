@@ -2,13 +2,13 @@
 
 import f_animals as animals
 
+
 def main():
     # Create a Mammal object, a Dog object, and
     # a Cat object.
     mammal = animals.Mammal('regular animal')
     dog = animals.Dog()
     cat = animals.Cat()
-
 
     # Display information about each one.
     print('Here are some animals and')
@@ -26,6 +26,12 @@ def main():
 
     cat.show_species()
     cat.make_sound()
+
+
+def show_mammasl_info(creature):
+    creature.show_species()
+    creature-make_sound()
+
 
 # Call the main function.
 main()
